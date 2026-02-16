@@ -109,7 +109,7 @@ financial_image_scans/
 
 ### Step 1: Clone/Download Project
 ```bash
-git clone
+git clone https://github.com/SANJAI-s0/financial_image_scans.git
 ```
 
 ### Step 2: Navigate to Project Directory

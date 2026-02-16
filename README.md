@@ -7,11 +7,11 @@
   <img alt="Google Gemini" src="https://img.shields.io/badge/Google%20Gemini-2.5-yellow?logo=google&logoColor=white" />
   <img alt="API Key" src="https://img.shields.io/badge/Requires%20API%20Key-Yes-red" />
   <img alt="License" src="https://img.shields.io/badge/License-See%20LICENSE-lightgrey" />
-  <!-- Replace the two placeholders below with your actual GitHub repo badges when you have CI/test set up -->
+  <!-- Replace the two placeholders below with your actual GitHub repo badges when you have CI/test set up
   <img alt="Build (placeholder)" src="https://img.shields.io/badge/build-pending-lightgrey" />
   <img alt="Coverage (placeholder)" src="https://img.shields.io/badge/coverage-n/a-lightgrey" />
+  -->
 </p>
-
 
 An AI-powered tool that analyzes financial document images (Annual Reports, Balance Sheets, Earnings Reports) to extract key insights, analyze charts/graphs, and generate structured summaries tailored to specific user roles.
 

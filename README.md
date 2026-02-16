@@ -280,14 +280,17 @@ model = genai.GenerativeModel('gemini-2.5-flash')
 
 ### Environment Variables
 
+```
 | Variable         | Description              | Required |
 |------------------|--------------------------|----------|
 | `GOOGLE_API_KEY` | Google Gemini API Key    | Yes      |
+```
 
 ---
 
 ## 🐛 Troubleshooting
 
+```
 | Issue                    | Solution                                                                      |
 |--------------------------|-------------------------------------------------------------------------------|
 | 404 Model Not Found      | Run `python check_models.py` and update model name in `financial_analyzer.py` |
@@ -298,11 +301,13 @@ model = genai.GenerativeModel('gemini-2.5-flash')
 | Rate Limit Exceeded      | Wait 60 seconds between requests or upgrade API tier                          |
 | PIL Import Error         | Run `pip install Pillow`                                                      |
 | Streamlit Port Conflict  | Run `streamlit run app.py --server.port 8502`                                 |
+```
 
 ---
 
 ## 📦 Dependencies
 
+```
 | Package               | Version | Purpose                         |
 |-----------------------|---------|---------------------------------|
 | `streamlit`           | Latest  | Web UI Framework                |
@@ -310,6 +315,7 @@ model = genai.GenerativeModel('gemini-2.5-flash')
 | `requests`            | Latest  | URL Image Fetchin               |
 | `google-generativeai` | Latest  | Google Gemini AI API            |
 | `python-dotenv`       | Latest  | Environment Variable Management |
+```
 
 ---
 
@@ -350,6 +356,7 @@ For issues or questions:
 
 This project fulfills all requirements from the Financial Report Analysis Problem Statement:
 
+```
 | Requirement                                | Status          |
 |--------------------------------------------|-==--------------|
 | Scan and capture financial document images | ✅ Implemented |
@@ -360,6 +367,7 @@ This project fulfills all requirements from the Financial Report Analysis Proble
 | Use PIL library to store images in list    | ✅ Implemented |
 | Follow output guidelines (7 sections)      | ✅ Implemented |
 | Provide actionable insights                | ✅ Implemented |
+```
 
 ---
 
